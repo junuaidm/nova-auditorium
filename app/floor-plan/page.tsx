@@ -29,7 +29,7 @@ export default function FloorPlan() {
               </p>
               <p className='text-sm text-gray-400 mt-6'>
                 [Add your floor plan image to
-                /public/images/venues/floor-plan.jpg]
+                /public/images/venues/floor-plan.jpeg]
               </p>
             </div>
           </div>

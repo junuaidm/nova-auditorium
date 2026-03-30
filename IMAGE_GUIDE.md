@@ -25,12 +25,12 @@ Location: `public/images/gallery/`
 
 Required images:
 
-- `conference-hall.jpg` (800×600px recommended)
-- `grand-ballroom.jpg`
-- `exhibition-area.jpg`
-- `dining-hall.jpg`
-- `outdoor-venue.jpg`
-- `green-room.jpg`
+- `conference-hall.jpeg` (800×600px recommended)
+- `grand-ballroom.jpeg`
+- `exhibition-area.jpeg`
+- `dining-hall.jpeg`
+- `outdoor-venue.jpeg`
+- `green-room.jpeg`
 
 **Purpose**: Showcase venue spaces
 
@@ -42,7 +42,7 @@ Location: `public/images/hero/`
 
 Required images:
 
-- `hero-banner.jpg` (1920×600px recommended, Large file)
+- `hero-banner.jpeg` (1920×600px recommended, Large file)
 
 **Purpose**: Background image for hero section (shows with 40% opacity)
 
@@ -54,12 +54,12 @@ Location: `public/images/events/`
 
 Required images (for event type cards):
 
-- `business-conference.jpg` (400×300px recommended)
-- `entertainment.jpg`
-- `sports.jpg`
-- `motor-shows.jpg`
-- `trade-exhibition.jpg`
-- `wedding.jpg`
+- `business-conference.jpeg` (400×300px recommended)
+- `entertainment.jpeg`
+- `sports.jpeg`
+- `motor-shows.jpeg`
+- `trade-exhibition.jpeg`
+- `wedding.jpeg`
 
 **Purpose**: Show example images for each event type
 
@@ -71,10 +71,10 @@ Location: `public/images/events/`
 
 Required images:
 
-- `tech-conference.jpg` (400×300px)
-- `trade-expo.jpg`
-- `entertainment-gala.jpg`
-- `sports-championship.jpg`
+- `tech-conference.jpeg` (400×300px)
+- `trade-expo.jpeg`
+- `entertainment-gala.jpeg`
+- `sports-championship.jpeg`
 
 **Purpose**: Display event images on calendar page
 
@@ -86,7 +86,7 @@ Location: `public/images/venues/`
 
 Required images:
 
-- `floor-plan.jpg` (1200×800px or larger, aspect ratio flexible)
+- `floor-plan.jpeg` (1200×800px or larger, aspect ratio flexible)
 
 **Purpose**: Show floor plan layout
 
@@ -98,7 +98,7 @@ Location: `public/images/venues/`
 
 Required images:
 
-- `venue-preview.jpg` (1200×600px)
+- `venue-preview.jpeg` (1200×600px)
 
 **Purpose**: Show venue layout on homepage
 
@@ -153,7 +153,7 @@ Required images:
 
 Make sure filenames match exactly what's in the code:
 
-- `conference-hall.jpg` (not `Conference Hall.jpg`)
+- `conference-hall.jpeg` (not `Conference Hall.jpeg`)
 - Use lowercase with hyphens, no spaces
 
 ### Step 4: Test Locally
