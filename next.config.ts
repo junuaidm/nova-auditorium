@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
+  basePath: '/nova-auditorium', // Add this line
 };
 
 export default nextConfig;
