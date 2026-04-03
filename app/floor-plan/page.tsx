@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import basePath from '@/lib/getBasePath';
 
 export default function FloorPlan() {
   return (
@@ -13,7 +14,7 @@ export default function FloorPlan() {
       <div className='bg-white rounded-lg shadow-lg p-8 mb-8'>
         <div className='relative w-full h-96 md:h-screen rounded-lg overflow-hidden bg-gray-100'>
           <Image
-            src='/images/venues/floor-plan.jpeg'
+            src={`${basePath}/images/venues/floor-plan.jpeg`}
             alt='Main Floor Plan'
             fill
             className='object-contain'

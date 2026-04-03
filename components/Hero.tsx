@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import basePath from '@/lib/getBasePath';
 
 export default function Hero() {
   return (
@@ -9,7 +10,7 @@ export default function Hero() {
       {/* Background Image (optional) */}
       <div className='absolute inset-0 z-0'>
         <Image
-          src='/images/hero/hero-banner.jpeg'
+          src={`${basePath}/images/hero/hero-banner.jpeg`}
           alt='Hero Background'
           fill
           className='object-cover opacity-40'

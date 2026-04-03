@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import basePath from '@/lib/getBasePath';
 
 export default function Events() {
   const upcomingEvents = [
@@ -10,7 +11,7 @@ export default function Events() {
       date: 'April 15, 2026',
       type: 'Conference',
       time: '9:00 AM - 5:00 PM',
-      image: '/images/events/tech-conference.jpeg',
+      image: `${basePath}/images/events/tech-conference.jpeg`,
     },
     {
       id: 2,
@@ -18,7 +19,7 @@ export default function Events() {
       date: 'May 10, 2026',
       type: 'Exhibition',
       time: '10:00 AM - 6:00 PM',
-      image: '/images/events/trade-expo.jpeg',
+      image: `${basePath}/images/events/trade-expo.jpeg`,
     },
     {
       id: 3,
@@ -26,7 +27,7 @@ export default function Events() {
       date: 'June 20, 2026',
       type: 'Entertainment',
       time: '6:00 PM - 11:00 PM',
-      image: '/images/events/entertainment-gala.jpeg',
+      image: `${basePath}/images/events/entertainment-gala.jpeg`,
     },
     {
       id: 4,
@@ -34,7 +35,7 @@ export default function Events() {
       date: 'July 5, 2026',
       type: 'Sports',
       time: '2:00 PM - 9:00 PM',
-      image: '/images/events/sports-championship.jpeg',
+      image: `${basePath}/images/events/sports-championship.jpeg`,
     },
   ];
 

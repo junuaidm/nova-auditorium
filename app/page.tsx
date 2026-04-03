@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import basePath from '@/lib/getBasePath';
 import Hero from '@/components/Hero';
 import EventTypeCard from '@/components/EventTypeCard';
 import AmenityCard from '@/components/AmenityCard';
@@ -20,7 +21,7 @@ const eventTypes = [
       'Elevate your wedding celebrations to the next level & make memories of a lifetime with our elegant spaces.',
     icon: '💒',
     color: 'border-pink-500',
-    image: '/images/events/wedding.jpeg',
+    image: `${basePath}/images/events/wedding.jpeg`,
   },
   {
     title: 'Engagement Ceremony',
@@ -28,7 +29,7 @@ const eventTypes = [
       'Celebrate your engagement with grace and elegance at our beautifully designed venue.',
     icon: '💍',
     color: 'border-rose-500',
-    image: '/images/events/engagement-ceremony.jpeg',
+    image: `${basePath}/images/events/engagement-ceremony.jpeg`,
   },
   {
     title: 'Business Meetings',
@@ -36,7 +37,7 @@ const eventTypes = [
       'Professional spaces designed for executive meetings, boardroom sessions, and corporate gatherings.',
     icon: '🤝',
     color: 'border-blue-500',
-    image: '/images/events/business-meetings.jpeg',
+    image: `${basePath}/images/events/business-meetings.jpeg`,
   },
   {
     title: 'Family Meetings',
@@ -44,7 +45,7 @@ const eventTypes = [
       'Comfortable and welcoming spaces for family gatherings, reunions, and get-togethers.',
     icon: '👨‍👩‍👧‍👦',
     color: 'border-green-500',
-    image: '/images/events/family-meetings.jpeg',
+    image: `${basePath}/images/events/family-meetings.jpeg`,
   },
   {
     title: 'Corporate Events',
@@ -52,7 +53,7 @@ const eventTypes = [
       'Host impressive corporate events, product launches, and team celebrations with full amenities.',
     icon: '🏢',
     color: 'border-indigo-500',
-    image: '/images/events/corporate-events.jpeg',
+    image: `${basePath}/images/events/corporate-events.jpeg`,
   },
   {
     title: 'Conference',
@@ -60,7 +61,7 @@ const eventTypes = [
       'A truly engaging space to inspire your entrepreneurial spirit and host professional conferences.',
     icon: '🎤',
     color: 'border-cyan-500',
-    image: '/images/events/conference.jpeg',
+    image: `${basePath}/images/events/conference.jpeg`,
   },
   {
     title: 'Royal Get Together',
@@ -68,7 +69,7 @@ const eventTypes = [
       'Exclusive and luxurious spaces for premium events and special gatherings of high distinction.',
     icon: '👑',
     color: 'border-yellow-500',
-    image: '/images/events/royal-get-together.jpeg',
+    image: `${basePath}/images/events/royal-get-together.jpeg`,
   },
   {
     title: 'Birthday Parties',
@@ -76,7 +77,7 @@ const eventTypes = [
       'Create unforgettable birthday celebrations with our versatile event spaces and full services.',
     icon: '🎉',
     color: 'border-purple-500',
-    image: '/images/events/birthday-parties.jpeg',
+    image: `${basePath}/images/events/birthday-parties.jpeg`,
   },
   {
     title: 'School & College Day',
@@ -84,7 +85,7 @@ const eventTypes = [
       'Perfect venue for annual days, farewell functions, and educational institution events.',
     icon: '🎓',
     color: 'border-orange-500',
-    image: '/images/events/school-college-day.jpeg',
+    image: `${basePath}/images/events/school-college-day.jpeg`,
   },
 ];
 
@@ -199,7 +200,7 @@ export default function Home() {
           <div className='bg-white rounded-lg shadow-lg overflow-hidden'>
             <div className='relative w-full h-96 bg-gray-200'>
               <Image
-                src='/images/venues/venue-preview.jpeg'
+                src={`${basePath}/images/venues/venue-preview.jpeg`}
                 alt='Venue Layout Preview'
                 fill
                 className='object-cover'

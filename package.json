@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
+    "export-check": "node ./scripts/export-check.js",
     "start": "next start",
     "lint": "eslint"
   },
