@@ -7,37 +7,37 @@ export default function Gallery() {
     {
       id: 1,
       title: 'Conference Hall',
-      src: '/images/gallery/conference-hall.jpeg',
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/conference-hall.jpeg`,
       category: 'Business',
     },
     {
       id: 2,
       title: 'Grand Ballroom',
-      src: '/images/gallery/grand-ballroom.jpeg',
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/grand-ballroom.jpeg`,
       category: 'Weddings',
     },
     {
       id: 3,
       title: 'Exhibition Area',
-      src: '/images/gallery/exhibition-area.jpeg',
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/exhibition-area.jpeg`,
       category: 'Trade',
     },
     {
       id: 4,
       title: 'Dining Hall',
-      src: '/images/gallery/dining-hall.jpeg',
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/dining-hall.jpeg`,
       category: 'Catering',
     },
     {
       id: 5,
       title: 'Outdoor Venue',
-      src: '/images/gallery/outdoor-venue.jpeg',
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/outdoor-venue.jpeg`,
       category: 'Events',
     },
     {
       id: 6,
       title: 'Green Room',
-      src: '/images/gallery/green-room.jpg',
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/green-room.jpg`,
       category: 'Hospitality',
     },
   ];
