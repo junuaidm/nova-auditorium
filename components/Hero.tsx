@@ -5,17 +5,17 @@ import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className='relative bg-gradient-to-r from-amber-600 to-amber-800 text-white py-16 md:py-24 overflow-hidden'>
-      {/* Background Image (optional) */}
+    <section className='relative bg-gray-900 text-white py-16 md:py-24 overflow-hidden'>
+      {/* Background Image */}
       <div className='absolute inset-0 z-0'>
         <Image
-          src='/images/hero/hero-banner.jpeg'
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/hero/hero-banner.jpeg`}
           alt='Hero Background'
           fill
-          className='object-cover opacity-40'
+          className='object-cover'
           priority
         />
-        <div className='absolute inset-0 bg-gradient-to-r from-amber-600/80 to-amber-800/80'></div>
+        <div className='absolute inset-0 bg-black/60'></div>
       </div>
 
       {/* Content */}
