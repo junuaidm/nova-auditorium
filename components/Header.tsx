@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { FiMenu, FiX } from 'react-icons/fi';
 
@@ -21,13 +22,22 @@ export default function Header() {
 
   return (
     <header className='sticky top-0 z-50 bg-white shadow-md'>
-      <nav className='max-w-7xl mx-auto px-4 py-4 flex justify-between items-center'>
+      <nav className='max-w-7xl mx-auto px-4 py-2 flex justify-between items-center'>
         {/* Logo */}
         <Link
           href='/'
-          className='text-2xl font-bold text-amber-700'
+          className='flex items-center gap-2 hover:opacity-80 transition duration-200'
         >
-          🏛️ Nova Auditorium
+          <Image
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/logo.png`}
+            alt='Nova Auditorium'
+            width={48}
+            height={48}
+            className='w-12 h-12 object-contain'
+          />
+          <span className='text-xl font-bold text-amber-700 hidden sm:inline'>
+            Nova Auditorium
+          </span>
         </Link>
 
         {/* Desktop Menu */}

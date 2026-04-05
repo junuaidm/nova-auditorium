@@ -37,7 +37,7 @@ export default function Gallery() {
     {
       id: 6,
       title: 'Green Room',
-      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/green-room.jpg`,
+      src: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/gallery/green-room.jpeg`,
       category: 'Hospitality',
     },
   ];
